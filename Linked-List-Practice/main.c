@@ -6,9 +6,11 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
+#include "LinkedList.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    Node* NewNode = SLL_CreateNode(117);
+    printf("%d \n", NewNode->Data);
     return 0;
 }
